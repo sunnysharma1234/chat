@@ -17,7 +17,7 @@ app.use(express.urlencoded({extended:true}));
 app.use(express.json()); 
 app.use(cookieParser());
 const corsOption={
-    origin:'https://66c8d25c0c815fee7e87946c--magical-melomakarona-14a233.netlify.app',
+    origin:'https://chit-chat300.netlify.app/',
     credentials:true
 };
 app.use(cors(corsOption)); 
